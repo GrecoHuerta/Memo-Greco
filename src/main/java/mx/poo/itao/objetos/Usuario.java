@@ -18,17 +18,17 @@ public class Usuario {
         System.out.println("¿Cuál es tu nombre?");
         setNombre(sc.nextLine());
 
-        System.out.println("¿Cuál es tu nivel de experiencia con motos? (Baja / Media / Alta)");
+        System.out.println("ESCRIBE LA PALABRA SEGUN EL CASO. ¿Cuál es tu nivel de experiencia con motos? (Baja / Media / Alta)");
         setExperiencia(sc.nextLine());
 
-        System.out.println("¿Buscas velocidad? (1. Sí / 2. No)");
+        System.out.println("ESCRIBE 1 O 2, SEGUN EL CASO. ¿Buscas velocidad? (1. Sí / 2. No)");
         setBuscaVelocidad(sc.nextInt() == 1);
         sc.nextLine();
 
-        System.out.println("¿Cuál es tu presupuesto? (Bajo / Medio / Alto)");
+        System.out.println("ESCRIBE LA PALABRA SEGUN EL CASO. ¿Cuál es tu presupuesto? (Bajo / Medio / Alto)");
         setPresupuesto(sc.nextLine());
 
-        System.out.println("¿Cuál es tu uso principal? (Ciudad / Carretera / Aventura)");
+        System.out.println("ESCRIBE LA PALABRA SEGUN EL CASO. ¿Cuál es tu uso principal? (Ciudad / Carretera / Aventura)");
         setUsoPrincipal(sc.nextLine());
 
         System.out.println("\n🔎 Analizando tu perfil...\n");
