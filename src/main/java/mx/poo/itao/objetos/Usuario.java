@@ -9,7 +9,7 @@ import lombok.*;
 public class Usuario {
     private String nombre;
     private String experiencia; // Baja, Media, Alta
-    private boolean buscaVelocidad;
+    private Boolean buscaVelocidad;
     private String presupuesto; // Bajo, Medio, Alto
     private String usoPrincipal; // Ciudad, Carretera, Aventura
 
